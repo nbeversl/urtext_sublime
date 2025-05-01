@@ -1,7 +1,9 @@
 
-Important 
-=========
+Important Message 
+=================
 
-Urtext has not been installed. This package no longer resides at this repository and is now distributed through its own Package Control channel.
+Urtext has not been installed.
+
+This package no longer resides at this repository and is now distributed through its own Package Control channel.
 
 Please see https://urtext.co/setup/sublime-text/ for new installation instructions.
