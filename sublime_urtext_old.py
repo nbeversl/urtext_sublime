@@ -4,8 +4,8 @@ import webbrowser
 
 def plugin_loaded():
     sublime.message_dialog(
-        "🚨 Urtext Sublime has moved!\n\n"    
-        "See this link for install information:\n\n"
+        "🚨 Due to issues with Package Control, Urtext has moved.\n\n"    
+        "Clicking Ok will open new install instructions:\n\n"
         "https://urtext.co/urtext-sublime-install-notice/\n\n"
     )
     webbrowser.open("https://urtext.co/urtext-sublime-install-notice/")
