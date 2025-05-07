@@ -18,4 +18,4 @@ See https://forum.sublimetext.com/t/using-sublime-text-as-a-frontend-for-a-note-
 # Legacy
 
 > “I hate Package Control. This package is now at https://github.com/nbeversl/UrtextSublime. Use Package Control to install it.”
-> (suggested by [packagecontrol.io](packagecontrol.io) developer)
+--- suggested explanation by [packagecontrol.io](packagecontrol.io) developer
