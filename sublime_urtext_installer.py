@@ -1,5 +1,4 @@
 import sublime
-import sublime_plugin
 import threading
 from package_control.package_tasks import PackageTaskRunner
 from package_control.activity_indicator import ActivityIndicator
@@ -19,12 +18,13 @@ def plugin_loaded():
     tasks = installer.create_package_tasks(actions=(installer.INSTALL, installer.OVERWRITE))
 
     def install_worker(task):
-        with ActivityIndicator('Installing URTEXT') as progress:
+        with ActivityIndicator('') as progress:
             installer.run_install_tasks([task], progress)
 
     for t in tasks:
         if t.package_name == "UrtextSublime":
             threading.Thread(target=install_worker, args=[t]).start()
+            break
 
     def remove_installer_worker():
         with ActivityIndicator() as progress:
