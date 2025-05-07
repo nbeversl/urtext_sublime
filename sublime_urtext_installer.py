@@ -24,7 +24,7 @@ def plugin_loaded():
 
     for t in tasks:
         if t.package_name == "UrtextSublime":
-            threading.Thread(target=worker, args=[t]).start()
+            threading.Thread(target=install_worker, args=[t]).start()
 
     def remove_installer_worker():
         with ActivityIndicator() as progress:
