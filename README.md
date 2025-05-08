@@ -1,7 +1,7 @@
 # Urtext Sublime Installer
 
 
-UrtextSublime is now in its [own package control channel](https://nbeversl.github.io/urtext-channel/channel.json) and this package is an installer only. **Installing this package will run the following steps immediately, without any confirmation dialog.**
+This package is now an installer only. **Installing this package will run the following steps immediately, without any confirmation dialog.**
 
 - Adds to Sublime Text the [Urtext package control channel](https://nbeversl.github.io/urtext-channel/channel.json)
 - Installs the current version of the package, [UrtextSublime](https://github.com/nbeversl/UrtextSublime)
