@@ -9,7 +9,7 @@ This package is now an installer only. **Installing this package will run the fo
 
 You can then receive updates to UrtextSublime from its own channel.
 
-You may instead run these steps manually if you prefer.
+You may instead run these steps manually if you prefer. See https://urtext.co/setup/sublime-text/ for guidance.
 
 # Reason
 
